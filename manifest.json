@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Scrollbar Remover",
-    "version": "1.0",
+    "version": "1.1",
     "author": "Tim Weißenfels",
 
     "permissions": ["activeTab","menus"],
@@ -17,5 +17,9 @@
             "19": "Toggle.svg",
             "38": "Toggle.svg"
         }
+    },
+
+    "commands": {
+        "_execute_page_action": {}
     }
 }
